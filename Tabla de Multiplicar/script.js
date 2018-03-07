@@ -1,4 +1,5 @@
 function multiply(){
+    document.getElementById("result").innerHTML = 'Resultado<br><br>';
     let a = document.getElementsByClassName("number")[0].value;
     if (isNaN(a) || a === "") {
         return alert('Introduce un número válido')

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Calculadora</title>
+    <title>Valor máximo</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
   </head>
@@ -11,20 +11,16 @@
     <div class="display">
       <div class="inputs">
         <div class="input">
-          <p>Primer dígito</p>
+          <p>Primer valor</p>
           <input id="first" class="number" type="text" value="6">
         </div>
         <div class="input">
-          <p>Operador</p>
-          <input id="operator" class="number" type="text" value="+">
-        </div>
-        <div class="input">
-          <p>Segundo dígito</p>
+          <p>Segundo valor</p>
           <input id="second" class="number" type="text" value="4">
         </div>
       </div>
 
-      <button class="calc" onclick="calcule()">Calcular</button>
+      <button class="calc" onclick="maxValue()">¿Cuál es mayor?</button>
       <div class="result-container">
         <div id="result" class="result">Resultado<br><br></div>
       </div>
