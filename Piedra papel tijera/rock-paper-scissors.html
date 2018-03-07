@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piedra - Papel - Tijera</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <div class="display">
+      <div class="inputs">
+        <div class="input">
+          <p>Jugador</p>
+          <input id="player" class="number" type="text" value="" style="text-transform:uppercase">
+        </div>
+        <div class="input">
+          <p>Ordenador</p>
+          <input id="computer" class="number" type="text" value="¿¿??">
+        </div>
+      </div>
+
+      <button class="calc" onclick="solve()">¡Juega!</button>
+      <div class="result-container">
+        <div id="result" class="result">RESULTADO</div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
