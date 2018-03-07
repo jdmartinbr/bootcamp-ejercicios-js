@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Generar una silla</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <div class="display">
+      <div class="inputs">
+        <div class="input">
+          <p>Primer dígito</p>
+          <input id="first" class="number" type="text" value="6">
+        </div>
+        <div class="input">
+          <p>Operador</p>
+          <input id="operator" class="number" type="text" value="+">
+        </div>
+        <div class="input">
+          <p>Segundo dígito</p>
+          <input id="second" class="number" type="text" value="4">
+        </div>
+      </div>
+
+      <button class="calc" onclick="calcule()">Calcular</button>
+      <div class="result-container">
+        <div id="result" class="result">Resultado<br><br></div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
