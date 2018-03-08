@@ -15,7 +15,18 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*flex-direction: column;*/
     height: 100vh;
+}
+.display {
+    background-color: #e1e1e1;
+    height: auto;
+    width: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
 }
 
 .enunciado{
@@ -24,29 +35,7 @@ h1 {
     padding: 15px;
     border: 1px solid black;
     text-align: justify;
-}
 
-.display {
-    background-color: #e1e1e1;
-    height: auto;
-    width: 500px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    text-align: center;
-}
-
-.inputs {
-    display: flex;
-    justify-content: space-between;
-}
-
-.input {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
 }
 
 .number {
@@ -69,7 +58,7 @@ h1 {
     background-color: white;
     height: auto;
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     box-sizing: border-box;
 }

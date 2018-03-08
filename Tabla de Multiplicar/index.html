@@ -2,16 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Número simpático</title>
+    <title>Tabla de multiplicar</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
   <div class="container">
+    <div class="enunciado">
+      <h1>Tabla de multiplicar.</h1>
+      <p>Crea una pequeña aplicación JavaScript que genere las tablas de multiplicar para ello se debe preguntar la tabla que quiere y se representará en la consola.</p>
+    </div>
     <div class="display">
       <p>Introduce tu número</p>
       <input class="number" type="text" value="">
-      <button class="calc" onclick="numeroSimpatico()">¿Es simpático?</button>
+      <button class="calc" onclick="multiply()">Multiplicar</button>
       <div class="result-container">
         <div id="result" class="result">Resultado<br><br></div>
       </div>

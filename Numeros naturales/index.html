@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Números naturales</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    <div class="enunciado">
+      <h1>Números naturales.</h1>
+      <p>Crea una aplicación que nos pida la altura de la silla y nos dibuje por pantalla una silla con *. La única restricción que no debe ser menor de 7 ni mayor de 30 y la condición de que el asiento este situado la mitad + 1Dado dos números naturales (mayores que cero): “N” e “i”, que imprima por pantalla el dígito que ocupa la posición iésima del número N. Si i es mayor que el número de dígitos de N, se escribirá por pantalla -1. Por ejemplo: N=25064 e i=2 el resultado es 6, para i=7 el resultado es -1.</div>
+    <div class="display">
+      <div class="inputs">
+        <div class="input">
+          <p>Introduce Número</p>
+          <input id="number" class="number" type="text" value="12345">
+        </div>
+        <div class="input">
+          <p>Introduce posición</p>
+          <input id="position" class="number" type="text" value="4">
+        </div>
+      </div>
+
+      <button class="calc" onclick="position()">Obtener posición</button>
+      <div class="result-container">
+        <div id="result" class="result">Resultado<br><br></div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
